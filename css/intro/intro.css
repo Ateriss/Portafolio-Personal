@@ -1,0 +1,66 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/montana-rosa-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.intro__redes {
+  width: 90vw;
+  padding: 1rem;
+  align-content: center;
+}
+
+.intro__intro {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    height: (100vh - 100px);
+  }
+
+  .intro__redes {
+    width: 100vw;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px #dd7272;
+  }
+
+  .intro__redes {
+    width: 60px;
+  }
+
+  .intro__intro {
+    display: flex;
+    padding: 1.5rem auto;
+    margin: 1.5rem 0;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: #651e0f;
+  }
+
+  .profile__card {
+    padding: 120px 0 0 0;
+  }
+}

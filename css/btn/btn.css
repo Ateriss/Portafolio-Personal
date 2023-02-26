@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-start;
+  width: 40vw;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn {
+    padding: 0;
+    margin: 0;
+    width: 270px;
+  }
+}

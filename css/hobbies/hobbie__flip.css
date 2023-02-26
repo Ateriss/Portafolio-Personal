@@ -1,0 +1,137 @@
+
+.hobbie__box {
+    position: relative;
+    width: 90vw;
+    height: 100px;
+    float: left;
+    perspective: 500px;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .reverse ul{
+    flex-direction: row-reverse;
+  }
+  
+  .hobbie__box--contenido {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border: 2px solid #651e0f;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .hobbie__box:hover .hobbie__box--contenido {
+    transform: rotatex( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .hobbie__box--front,
+  .hobbie__box--back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dd7272;
+    backface-visibility: hidden;
+  }
+  
+  .hobbie__box--back {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotatex( 180deg );
+  }
+
+  #patin{
+    background-image: url(/assets/pexels-ἐμμανυελ--13373949.jpg);
+  }
+
+  #ilustracion{
+    background-image: url(/assets/pexels-george-milton-7015034.jpg);
+  }
+
+  #tattoo{
+    background-image: url(/assets/pexels-cottonbro-studio-4125580.jpg);
+  }
+
+  #game{
+    background-image: url(/assets/pexels-lucie-liz-3248143.jpg);
+  }
+
+  .hobbie__logo--img{
+    width: 40px;
+  }
+
+  .hobbie__box--front ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.hobbie__nombre{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #651e0f;
+}
+
+
+@media screen and (min-width:768px){
+
+    .hobbie__logo--img{
+        width: 80px;
+      }
+
+      .hobbie__box {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .hobbie__nombre{
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    
+    .hobbie__box{
+        width: 234px;
+        height: 60vh;
+        margin: 0rem 1rem 0 1rem;
+    }
+
+    .hobbie__box--back{
+        background-position: center;
+    }
+    
+    .hobbie__box--front ul{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        margin: 0 ;
+    }
+
+    .reverse ul{
+        flex-direction: column-reverse;
+    }
+
+    .hobbie__box:hover .hobbie__box--contenido {
+        transform: rotatey( 180deg ) ;
+    }
+
+    .hobbie__box--back{
+        transform: rotatey( 180deg );
+    }
+
+    .hobbie__nombre{
+        font-size: 2rem;
+    }
+    }

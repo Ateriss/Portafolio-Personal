@@ -1,0 +1,17 @@
+
+.rodapie__nombre{
+    display: none;
+    padding-top: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #651E0F;
+}
+
+.rodapie__nombre--descripcion{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.rodapie__nombre--titulo{
+    padding-bottom: 1rem;
+}

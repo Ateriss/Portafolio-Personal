@@ -1,0 +1,20 @@
+.contacto__descripcion {
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.25rem;
+  color: #651e0f;
+  width: 85vw;
+}
+
+@media screen and (min-width: 768px) {
+  .contacto__descripcion {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .contacto__descripcion {
+    font-size: 1.5rem;
+    width: 600px;
+    line-height: 1.5rem;
+  }
+}

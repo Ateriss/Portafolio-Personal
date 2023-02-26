@@ -1,0 +1,57 @@
+html, footer, header, body {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    scroll-behavior: smooth;
+
+}
+
+
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    background: none;
+}
+
+input:checked{
+    border: none;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/cielo_rosa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+@keyframes temblor{
+    0%{transform:translate(0);}
+    20%,40%,60%,80%{transform:translate(.4rem);}
+    10%,30%,50%{transform: translate(-.1rem);}
+    70%,100%{transform: translate(0);}
+}
+
+a{
+    cursor: pointer;
+}
+
+@import "dark__web.css"

@@ -1,0 +1,36 @@
+.cabecera__lista {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.cabecera__lista li:hover .menu {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecera__lista {
+    width: 90vw;
+    height: 100px;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cabecera__lista {
+    width: 1300px;
+    height: 100px;
+  }
+
+  .cabecera__lista li:hover .menu {
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

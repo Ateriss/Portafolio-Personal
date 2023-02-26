@@ -1,0 +1,36 @@
+.skills {
+  padding-top: 4rem;
+  height: 100vh;
+}
+
+.skill__titulo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 0.5rem 0;
+  font-weight: bold;
+  color: #651e0f;
+  text-shadow: 2px 2px 5px #ff9c9c;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    padding-top: 5rem;
+    height: 90vh;
+  }
+
+  .skill__titulo {
+    font-size: 3.5rem;
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .skills {
+    width: 1440px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 120px 0 0 0;
+  }
+}

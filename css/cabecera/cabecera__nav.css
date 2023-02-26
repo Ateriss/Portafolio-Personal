@@ -1,0 +1,32 @@
+.cabecera__nav {
+  display: flex;
+}
+
+.cabecera__nav--img {
+  width: 25px;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecera__nav {
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .cabecera__nav--img {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cabecera__nav {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cabecera__nav--img {
+    display: none;
+  }
+}

@@ -1,0 +1,181 @@
+.exp__box {
+  width: 325px;
+  border-radius: 15px;
+  border: 2px #651e0f;
+  margin-top: 1rem;
+}
+
+.imagen {
+  position: relative;
+  width: 100%;
+  height: 195px;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-radius: 15px 15px 0 0;
+  transition: 0.4s;
+  box-shadow: 2px 0px 5px #dd7272;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 70px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #651e0f;
+  transition: top 0.5s;
+  text-shadow: 5px 5px 10px #ff9c9c;
+}
+
+.exp__box:hover .title {
+  top: 40px;
+  color: #ffc0b3;
+}
+
+.exp__box:hover .img {
+  filter: brightness(50%);
+}
+
+.btn1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 120px;
+  text-align: center;
+  transition: opacity 0.35s ease;
+}
+
+.btn1 a {
+  padding: 15px;
+  color: #651e0f;
+
+  margin: 10px;
+}
+
+#repo,
+#demo {
+  width: 30px;
+  height: 30px;
+}
+
+#repo {
+  background-image: url(/assets/icons/signo-de-github_o.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.exp__box:hover #repo {
+  text-decoration: underline;
+  background-image: url(/assets/icons/signo-de-github_c.png);
+}
+
+#demo {
+  background-image: url(/assets/icons/play-alternativo_o.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.exp__box:hover #demo {
+  text-decoration: underline;
+  background-image: url(/assets/icons/play-alternativo_c.png);
+}
+
+.exp__box:hover .btn1 {
+  opacity: 1;
+}
+
+.exp__descripcion {
+  height: 100x;
+  font-size: 1rem;
+  color: #651e0f;
+  padding: 1rem;
+  text-align: justify;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 15px 19px;
+  box-shadow: 2px 2px 5px #dd7272;
+  transition: 0.5s;
+}
+
+.exp__box:hover .exp__descripcion {
+  background: #651e0f;
+  color: #ff9c9c;
+}
+
+@media screen and (min-width: 768px) {
+  .exp__box {
+    width: 500px;
+  }
+
+  .imagen {
+    height: 300px;
+  }
+  .title {
+    top: 90px;
+    font-size: 2rem;
+  }
+  .exp__box:hover .title {
+    top: 70px;
+  }
+
+  .btn1 {
+    top: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bt1 a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 2rem;
+  }
+
+  #repo,
+  #demo {
+    background-size: 60px;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .exp__box {
+    width: 550px;
+  }
+
+  .imagen {
+    width: 100%;
+  }
+
+  .exp__caja2 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 50px;
+  }
+
+  .exp__descripcion {
+    font-size: 1.5rem;
+  }
+
+  .btn1 {
+    opacity: 0;
+  }
+
+  .exp__box:hover .btn1 {
+    opacity: 1;
+  }
+}

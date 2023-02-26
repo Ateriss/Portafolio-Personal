@@ -1,0 +1,30 @@
+.btn__idioma {
+  font-size: 1rem;
+  color: #651e0f;
+  margin-right: 1rem;
+  align-self: center;
+}
+
+.btn__idioma--es {
+  border-right: 2px solid #651e0f;
+  margin: 0;
+  padding-right: 0.5rem;
+}
+
+.btn__idioma--en {
+  border-left: 2px solid #651e0f;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .btn__idioma {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn__idioma {
+    font-size: 1.5rem;
+  }
+}

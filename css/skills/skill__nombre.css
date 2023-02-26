@@ -1,0 +1,11 @@
+.skill__nombre {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #651e0f;
+  }
+
+  @media screen and (min-width: 768px){
+    .skill__nombre {
+        font-size: 2rem;
+      }
+  }

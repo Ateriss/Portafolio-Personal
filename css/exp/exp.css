@@ -1,0 +1,31 @@
+.exp {
+  padding: 60px 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp__caja2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .exp {
+    padding-top: 100px;
+    height: 100vh;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .exp {
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .exp__caja2{
+    flex-direction: row;
+  }
+}

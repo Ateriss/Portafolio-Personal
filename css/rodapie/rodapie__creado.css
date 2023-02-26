@@ -1,0 +1,72 @@
+.rodapie__creado {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.rodapie__creado p {
+  text-align: center;
+  color: #651e0f;
+  font-weight: bold;
+  margin: 0.25rem;
+}
+
+.rodapie__creado--descripcion {
+  font-size: 1rem;
+}
+
+.rodapie__creado--nombre {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.rodapie__creado--logo {
+  width: 180px;
+}
+
+.rodapie__creado--txt {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .rodapie__creado--logo {
+    width: 300px;
+  }
+
+  .rodapie__creado--descripcion {
+    font-size: 2rem;
+  }
+
+  .rodapie__creado--nombre {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
+    .rodapie {
+      margin: 0;
+      padding: 0;
+    }
+
+    .rodapie__box {
+      display: flex;
+      flex-direction: row;
+      width: 1200px;
+    }
+
+    .rodapie__creado {
+      margin: 10px 0 0 0;
+      padding: 0;
+    }
+
+    .rodapie__creado--descripcion {
+      font-size: 1rem;
+    }
+
+    .rodapie__creado--nombre {
+      font-size: 1.5rem;
+    }
+  }
+}

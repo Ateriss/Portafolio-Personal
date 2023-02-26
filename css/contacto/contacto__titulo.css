@@ -1,0 +1,14 @@
+.contacto__titulo {
+  display: flex;
+  align-self: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .contacto__titulo {
+    width: 1200px;
+  }
+}

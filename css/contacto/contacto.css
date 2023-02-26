@@ -1,0 +1,44 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px 0 0 1rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contacto__img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contacto {
+    margin: 0;
+    padding: 100px 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contacto {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 120px 0 0 0;
+  }
+
+  .contacto__caja {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacto__img {
+    display: block;
+    width: 400px;
+  }
+
+  .contacto__box {
+    width: 600px;
+  }
+}

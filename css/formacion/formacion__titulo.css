@@ -1,0 +1,9 @@
+.formacion__titulo{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.rodapie__rrss ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+}
+
+.rodapie__rrss--lista {
+  margin-bottom: 1rem;
+}
+
+.rodapie__rrss--logo {
+  width: 40px;
+}
+
+.rodapie__rrss--logo:hover {
+  animation: temblor 0.8s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  .rodapie__rrss--logo {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rodapie__rrss {
+    margin: 0;
+  }
+  .rodapie__rrss--lista ul {
+    justify-content: center;
+  }
+
+  .rodapie__rrss--logo {
+    width: 30px;
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,94 @@
+.contacto__btn--box,
+.contacto__btn--box::before,
+.contacto__btn--box::after,
+.contacto__btn--box span,
+.contacto__btn--box span::before,
+.contacto__btn--box span::after {
+  transition: all ease 0.5s;
+}
+
+.contacto__btn--box {
+  position: relative;
+  display: inline-block;
+  padding: 0.3em;
+  margin: 1em;
+  border: solid 2px #651e0f;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contacto__btn--box:hover {
+  box-shadow: 0 0 5em 0.5em rgba(50, 50, 150, 0.5);
+}
+
+.contacto__btn--box span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 43.3%;
+  padding: 0.6em 2em;
+  font-weight: bold;
+  color: #651e0f;
+}
+
+.contacto__btn--box:hover span {
+  background-color: #651e0f;
+  color: #ffc0b3;
+}
+
+.contacto__btn--box::before,
+.contacto__btn--box::after,
+.contacto__btn--box::before,
+.contacto__btn--box::after {
+  content: "";
+  position: absolute;
+  border: 1px;
+}
+
+.contacto__btn--box::before,
+.contacto__btn--box::before {
+  border-style: solid none;
+}
+
+.contacto__btn--box::before,
+.contacto__btn--box span::after {
+  left: 0;
+  top: -0.4em;
+  width: 100%;
+  height: calc(100% + 0.8em);
+}
+
+.contacto__btn--box::after,
+.contacto__btn--box span::after {
+  border-style: none solid;
+}
+
+.contacto__btn--box::after,
+.contacto__btn--box span::before {
+  top: 0;
+  left: -0.4em;
+  height: 100%;
+  width: calc(100% + 0.8em);
+}
+
+.contacto__btn--box:hover::after,
+.contacto__btn--box:hover span::after {
+  transform: scaleY(0);
+}
+
+.contacto__btn--box:hover::before,
+.contacto__btn--box:hover span::before {
+  transform: scaleX(0);
+}
+
+.contacto__btn--box:hover span::after,
+.contacto__btn--box:hover span::before {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .contacto__btn--box {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}

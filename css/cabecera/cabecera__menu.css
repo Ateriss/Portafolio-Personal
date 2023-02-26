@@ -1,0 +1,71 @@
+.cabecera__menu {
+  position: absolute;
+  width: 300px;
+  padding: 1rem;
+  background-image: url(/assets/cielo_rosa.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #dd7272;
+  display: none;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.cabecera__item {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #651e0f;
+  padding: 1rem;
+  text-transform: uppercase;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.cabecera__item:hover {
+  background-color: rgba(101, 30, 15, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.cabecera__item:active {
+  background-color: rgba(101, 30, 15, 0.8);
+  backdrop-filter: blur(10px);
+  color: #ffc0b3;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecera__menu {
+    width: 650px;
+  }
+
+  .cabecera__item {
+    font-size: 2rem;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cabecera__menu {
+    position: relative;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    box-shadow: none;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cabecera__item {
+    padding: 1rem;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    width: 150px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
+}
