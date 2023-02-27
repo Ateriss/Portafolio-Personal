@@ -37,10 +37,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 63%;
   padding: 0.6em 2em;
   font-weight: bold;
   color: var(--color-secundario);
+}
+.cvEN span{
+  width: 62%;
+
+}
+
+.cvES span{
+  width: 63%;
 }
 
 .intro__cv:hover span
