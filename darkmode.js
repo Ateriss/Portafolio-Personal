@@ -13,7 +13,7 @@ const darkModeOff = ()=> {
 
 };
 
-darkModeToggle.addEventListener("change", () =>{
+darkModeToggle.addEventListener("click", () =>{
     darkMode = localStorage.getItem("darkMode");
     if (darkMode !== "enabled"){
         darkModeON();

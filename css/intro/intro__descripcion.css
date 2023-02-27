@@ -7,12 +7,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .intro__descripcion {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .intro__descripcion {
-    font-size: 3rem;
-  }
 
   .intro__descripcion {
     font-size: 2.5rem;

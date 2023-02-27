@@ -25,10 +25,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 43.3%;
   padding: 0.6em 2em;
   font-weight: bold;
   color: var(--color-secundario);
+}
+
+.sendEN span {
+  width: 36%;
+}
+
+.sendES span {
+  width: 43.3%;
 }
 
 .contacto__btn--box:hover span {

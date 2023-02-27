@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100vw;
   padding-top: 3rem;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
   color:var(--color-secundario);
 }
@@ -24,7 +24,8 @@
 }
 
 .sobre__img {
-  width: 50%;
+  width: 50vw;
+  height: 65vw;
   background-image: var(--sobre-img);
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +53,7 @@
   }
 
   .sobre__img {
-    width: 210px;
+    width: 255px;
     height: 350px;
   }
 }

@@ -55,14 +55,13 @@
 .btn1 a {
   padding: 15px;
   color: #651E0F;
-
   margin: 10px;
 }
 
 #repo,
 #demo {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,7 +73,6 @@
 }
 
 .exp__box:hover #repo {
-  text-decoration: underline;
   background-image: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
 }
 
@@ -83,7 +81,6 @@
 }
 
 .exp__box:hover #demo {
-  text-decoration: underline;
   background-image: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
 }
 

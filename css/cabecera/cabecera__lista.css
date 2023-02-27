@@ -7,7 +7,7 @@
   padding: 0 0.5rem 0 0.5rem;
 }
 
-.cabecera__lista li:hover .menu {
+.cabecera__lista li:hover .cabecera__menu {
   transition: 0.3s;
   display: flex;
   flex-direction: column;

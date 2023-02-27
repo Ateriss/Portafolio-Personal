@@ -21,7 +21,6 @@ select{
   bottom: 2px solid;
   font-size: 1.25rem;
   font-weight: bolder;
-  transition: .3s;
 }
 
 @media screen and (min-width: 768px) {

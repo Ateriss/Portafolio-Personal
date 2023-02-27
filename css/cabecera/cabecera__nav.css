@@ -3,10 +3,16 @@
 }
 
 .cabecera__nav--img {
-  width: 25px;
+  width: 30px;
+  height: 30px;
+  background-image: var(--nav-logo);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-self: center;
 }
+
 
 @media screen and (min-width: 768px) {
   .cabecera__nav {
@@ -16,6 +22,7 @@
 
   .cabecera__nav--img {
     width: 50px;
+    height: 50px;
   }
 }
 

@@ -64,7 +64,6 @@
     <link rel="stylesheet" href="../Portafolio-Personal/css/cabecera/cabecera__lista.css" />
     <link rel="stylesheet" href="../Portafolio-Personal/css/cabecera/cabeza.css">
 
-    <link rel="stylesheet"  href="dark__web.css" />
 
     <title>Alexandra Linares</title>
   </head>
@@ -76,34 +75,28 @@
             <nav>
               <ul class="cabecera__lista">
                 <li>
-                  <img
-                    src="/assets/icons/menu__o.png"
-                    alt=""
-                    class="cabecera__nav--img"
-                  />
+                  <div class="cabecera__nav--img"></div>
                   <ul class="cabecera__menu">
-                    <li class="cabecera__item">
-                      <a href="#home" class="cabecera__link">home</a>
+                    <li>
+                      <a href="#home" class=" cabecera__item cabecera__link">home</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#sobre" class="cabecera__link">Sobre mi</a>
+                    <li>
+                      <a href="#sobre" class="cabecera__item cabecera__link">Sobre mi</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#skills" class="cabecera__link">skills</a>
+                    <li>
+                      <a href="#skills" class="cabecera__item cabecera__link">skills</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#hobbies" class="cabecera__link">hobbies</a>
+                    <li>
+                      <a href="#hobbies" class="cabecera__item cabecera__link">hobbies</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#formacion" class="cabecera__link">formación</a>
+                    <li>
+                      <a href="#formacion" class="cabecera__item cabecera__link">formación</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#experiencia" class="cabecera__link"
-                        >proyectos</a
-                      >
+                    <li >
+                      <a href="#experiencia" class="cabecera__item cabecera__link">proyectos</a>
                     </li>
-                    <li class="cabecera__item">
-                      <a href="#contacto" class="cabecera__link">contacto</a>
+                    <li>
+                      <a href="#contacto" class="cabecera__item cabecera__link">contacto</a>
                     </li>
                   </ul>
                 </li>
@@ -113,7 +106,7 @@
                     <a href="/Portafolio-Personal/index-EN.html" class="btn__idioma--en">EN</a>
                   </div>
                   <div class="wrapper">
-                    <input type="checkbox" id="hide-checkbox" />
+                    <input type="checkbox" id="hide-checkbox" checked />
                     <label for="hide-checkbox" class="toggle">
                       <span class="toggle-button">
                         <span class="crater crater-1"></span>
@@ -160,7 +153,7 @@
               <div>
                 <a
                   href="https://drive.google.com/file/d/1YHpXLjjXgZkTwzks5PZ1ZVZVZN52cbB_/view?usp=sharing"
-                  class="intro__cv"
+                  class="intro__cv cvES"
                   ><span
                     >Descargar
                     <div class="cvc"></div>
@@ -198,7 +191,7 @@
       <section class="sobre" id="sobre">
         <h2 class="skill__titulo sobre__titulo">Sobre mi</h2>
         <div class="sobre__caja">
-          <div class="sobre__txt">
+          <div class="sobre__txt scroll__animated">
             <p class="sobre__descripcion">
               Tengo más de 3 años de experiencia en mantenimiento y reparación
               de equipos médicos, realización de planes de mantenimiento,
@@ -218,13 +211,13 @@
               futuro!
             </p>
           </div>
-          <div class="sobre__img"></div>
+          <div class="sobre__img scroll__animated"></div>
         </div>
       </section>
       <section class="skills container" id="skills">
         <h2 class="skill__titulo">Skills</h2>
         <div class="skill__caja">
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img html"></div>
@@ -232,7 +225,7 @@
               <li class="skill__nombre">HTML5</li>
             </ul>
           </div>
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img js"></div>
@@ -240,7 +233,7 @@
               <li class="skill__nombre">JavaScript</li>
             </ul>
           </div>
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img react"></div>
@@ -248,7 +241,7 @@
               <li class="skill__nombre">React</li>
             </ul>
           </div>
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img css"></div>
@@ -256,7 +249,7 @@
               <li class="skill__nombre">CSS</li>
             </ul>
           </div>
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img trello"></div>
@@ -264,7 +257,7 @@
               <li class="skill__nombre">Trello</li>
             </ul>
           </div>
-          <div class="skill__box">
+          <div class="skill__box scroll__animated">
             <ul>
               <li class="skill__logo">
                 <div class="skill__logo--img figma"></div>
@@ -277,7 +270,7 @@
       <section class="hobbies container" id="hobbies">
         <h2 class="hobbie__titulo skill__titulo">Hobbies</h2>
         <div class="hobbie__caja">
-          <div class="hobbie__box">
+          <div class="hobbie__box scroll__animated">
             <div class="hobbie__box--contenido">
               <div class="hobbie__box--front">
                 <ul>
@@ -290,7 +283,7 @@
               <div class="hobbie__box--back" id="patin"></div>
             </div>
           </div>
-          <div class="hobbie__box">
+          <div class="hobbie__box scroll__animated">
             <div class="hobbie__box--contenido">
               <div class="hobbie__box--front reverse">
                 <ul>
@@ -303,7 +296,7 @@
               <div class="hobbie__box--back" id="ilustracion"></div>
             </div>
           </div>
-          <div class="hobbie__box">
+          <div class="hobbie__box scroll__animated">
             <div class="hobbie__box--contenido">
               <div class="hobbie__box--front">
                 <ul>
@@ -316,7 +309,7 @@
               <div class="hobbie__box--back" id="tattoo"></div>
             </div>
           </div>
-          <div class="hobbie__box">
+          <div class="hobbie__box scroll__animated">
             <div class="hobbie__box--contenido">
               <div class="hobbie__box--front reverse">
                 <ul>
@@ -334,7 +327,7 @@
       <section class="formacion container" id="formacion">
         <h2 class="skill__titulo">Formación Académica</h2>
         <div class="formacion__caja">
-          <div class="formacion__box">
+          <div class="formacion__box scroll__animated">
             <ul>
               <li class="formacion__box--logo">
                 <img src="/Portafolio-Personal/assets/logo-one-alura.png" alt="" />
@@ -347,7 +340,7 @@
               </li>
             </ul>
           </div>
-          <div class="formacion__box center">
+          <div class="formacion__box center scroll__animated">
             <ul>
               <li class="formacion__box--logo">
                 <img src="assets/linkmicrologo.png" alt="" />
@@ -360,7 +353,7 @@
               </li>
             </ul>
           </div>
-          <div class="formacion__box end">
+          <div class="formacion__box end scroll__animated">
             <ul>
               <li class="formacion__box--logo">
                 <img src="assets/unefm.png" alt="" />
@@ -376,13 +369,13 @@
       <section class="exp container" id="experiencia">
         <h2 class="exp__nombre skill__titulo">proyectos</h2>
         <div class="exp__caja2">
-          <div class="exp__box">
+          <div class="exp__box scroll__animated">
             <div class="imagen">
               <img src="/Portafolio-Personal/assets/secretcode_print.png" alt="" class="img" />
               <p class="title">Encriptador de Texto</p>
               <div class="btn1">
-                <a id="repo" href="#"></a>
-                <a id="demo" href="#"></a>
+                <a id="repo" href="https://github.com/Ateriss/Encriptador"></a>
+                <a id="demo" href="https://ateriss.github.io/Encriptador/"></a>
               </div>
             </div>
             <p class="exp__descripcion">
@@ -392,13 +385,13 @@
               fugiat tenetur, nostrum quasi libero.
             </p>
           </div>
-          <div class="exp__box">
+          <div class="exp__box scroll__animated">
             <div class="imagen">
               <img src="/Portafolio-Personal/assets/secretcode_print.png" alt="" class="img" />
               <p class="title">Portafolio Presonal</p>
               <div class="btn1">
-                <a id="repo" href="#"></a>
-                <a id="demo" href="#"></a>
+                <a id="repo" href="https://github.com/Ateriss/Portafolio-Personal"></a>
+                <a id="demo" href="https://ateriss.github.io/Portafolio-Personal/"></a>
               </div>
             </div>
             <p class="exp__descripcion">
@@ -418,7 +411,7 @@
               ¿Quieres contactarme? completa el siguiente formulario y
               responderé lo antes posible.
             </p>
-            <div class="contacto__box">
+            <div class="contacto__box scroll__animated">
               <div class="contacto__intro">
                 <p class="contacto__intro--nombre">Nombre</p>
                 <input
@@ -449,7 +442,7 @@
                 ></textarea>
               </div>
               <div class="contacto__btn">
-                <a href="#" class="contacto__btn--box"><span>Enviar</span></a>
+                <a href="#" class="contacto__btn--box sendES"><span>Enviar</span></a>
               </div>
             </div>
           </div>
@@ -503,7 +496,7 @@
 
     <script src="darkmode.js">
     </script>
-
+  <script src="scroll-animated.js"></script>
 
   </body>
 </html>
