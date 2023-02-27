@@ -32,6 +32,7 @@
   text-transform: uppercase;
   color: #651E0F;
   transition: top 0.5s;
+  backdrop-filter: blur(10px);
 }
 
 .exp__box:hover .title {
