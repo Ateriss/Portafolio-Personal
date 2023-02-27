@@ -1,5 +1,5 @@
 .contacto__intro {
-  margin-bottom: 0.5rem;
+  margin: 1.5rem auto;
   border: 2px solid;
   border-color: var(--color-secundario);
   background: rgba(0, 0, 0, 0);
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 768px) {
   .contacto__intro {
-    margin-top: 1rem;
+    margin: 1.5rem auto;
   }
 
   .contacto__intro--nombre {
@@ -58,5 +58,6 @@
 
   .contacto__intro {
     width: 600px;
+    margin: 2rem auto;
   }
 }

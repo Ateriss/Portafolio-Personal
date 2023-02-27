@@ -14,6 +14,8 @@
   align-items: center;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .cabecera__lista {
     width: 90vw;
@@ -27,7 +29,7 @@
     height: 100px;
   }
 
-  .cabecera__lista li:hover .menu {
+  .cabecera__lista li:hover .cabecera__menu {
     transition: 0.3s;
     display: flex;
     flex-direction: row;

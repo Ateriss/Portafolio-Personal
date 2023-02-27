@@ -163,7 +163,7 @@
 }
 
 @keyframes travel {
-  0% {
+  100% {
     transform: rotate(-11.5deg) translateX(-7.5px);
     width: 1px;
     height: 1px;
@@ -176,7 +176,7 @@
     box-shadow: 5px 0px 6px 1px #fff;
   }
 
-  100% {
+  0% {
     transform: rotate(-11.25deg) translateX(17.5px);
   }
 }
@@ -279,15 +279,15 @@
 }
 
 @keyframes move {
-  0% {
+  100% {
     transform: translateX(-0.5px);
   }
 
-  25% {
+  75% {
     transform: translateX(0.5px);
   }
 
-  100% {
+  0% {
     transform: none;
   }
 }

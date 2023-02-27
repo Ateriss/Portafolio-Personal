@@ -11,6 +11,8 @@
   background-size: cover;
   justify-content: center;
   align-self: center;
+  border: none;
+  background-color: none;
 }
 
 

@@ -9,7 +9,7 @@
   border-radius: 10px;
   box-shadow: 2px 2px 5px var(--color-primary-0);
   display: none;
-  transition: 0.3s;
+  transition: all 0.4s;
   z-index: 1;
 }
 
@@ -38,6 +38,7 @@
   backdrop-filter: blur(10px);
   color: var(--color-primario);
 }
+
 
 
 @media screen and (min-width: 768px) {

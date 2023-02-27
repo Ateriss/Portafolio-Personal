@@ -25,7 +25,7 @@
   position: absolute;
   width: 100%;
   left: 0;
-  top: 70px;
+  top: 120px;
   font-weight: 700;
   font-size: 1.5rem;
   text-align: center;
@@ -35,10 +35,11 @@
   backdrop-filter: blur(10px);
 }
 
-.exp__box:hover .title {
+.exp__box:hover .title{
   top: 40px;
   color:  #FFC0B3;
 }
+
 
 .exp__box:hover .img {
   filter: brightness(50%);
@@ -47,46 +48,49 @@
 .btn1 {
   position: absolute;
   width: 100%;
+  display: flex;
+  justify-content: center;
   left: 0;
-  top: 120px;
+  top: 160px;
   text-align: center;
+  backdrop-filter:blur(10px) ;
   transition: opacity 0.35s ease;
 }
 
 .btn1 a {
-  padding: 15px;
+  margin:0 15px 0 15px;
   color: #651E0F;
-  margin: 10px;
-}
-
-#repo,
-#demo {
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
+  width: 30px;
+  height: 30px;
 }
 
 #repo {
-  background-image: url(/Portafolio-Personal/assets/icons/signo-de-github_o.png);
+  background-image: url(/assets/icons/signo-de-github_o.png);
 }
 
 .exp__box:hover #repo {
-  background-image: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
+  background-image: url(/assets/icons/signo-de-github_c.png);
 }
 
 #demo {
-  background-image: url(/Portafolio-Personal/assets/icons/play-alternativo_o.png);
+  background-image: url(/assets/icons/play-alternativo_o.png);
 }
 
 .exp__box:hover #demo {
-  background-image: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
+  background-image: url(/assets/icons/play-alternativo_c.png);
 }
 
 .exp__box:hover .btn1 {
   opacity: 1;
+}
+
+#repo,
+#demo {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
 .exp__descripcion {
@@ -116,35 +120,30 @@
     height: 300px;
   }
   .title {
-    top: 90px;
+    top: 190px;
     font-size: 2rem;
   }
   .exp__box:hover .title {
-    top: 70px;
+    top: 50px;
   }
 
   .btn1 {
-    top: 150px;
+    top: 220px;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .bt1 a {
-    display: block;
-    width: 60px;
-    height: 60px;
-    padding: 0;
-    margin: 2rem;
+  .btn1 a {
+    margin:0 15px 0 15px;
+    width: 40px;
+    height: 40px;
   }
 
   #repo,
   #demo {
-    background-size: 60px;
     background-position: center;
-    width: 60px;
-    height: 60px;
   }
 }
 
@@ -158,7 +157,7 @@
   }
 
   .title{
-    top: 200px;
+    top: 250px;
   }
 
   .exp__caja2 {
@@ -170,6 +169,12 @@
 
   .exp__descripcion {
     font-size: 1.5rem;
+  }
+
+  .btn1 a {
+    margin:0 15px 0 15px;
+    width: 50px;
+    height: 50px;
   }
 
   .btn1 {

@@ -4,33 +4,33 @@
   --color-medio: #ef8f7b;
   --color-secundario: #651e0f;
   --color-contrasteAlto: #200600;
-  --background: url(/Portafolio-Personal/assets/cielo_rosa.jpg);
-  --background-intro: url(/Portafolio-Personal/assets/montana-rosa-2.png);
+  --background: url(/assets/cielo_rosa.jpg);
+  --background-intro: url(/assets/montana-rosa-2.png);
 
-  --profile: url(/Portafolio-Personal/assets/caramiasinpelo__o.png);
-  --sobre-img: url(/Portafolio-Personal/assets/bunny__o.png);
-  --contacto-img: url(/Portafolio-Personal/assets/conejis_o.png);
+  --profile: url(/assets/caramiasinpelo__o.png);
+  --sobre-img: url(/assets/bunny__o.png);
+  --contacto-img: url(/assets/conejis_o.png);
 
-  --cvo: url(/Portafolio-Personal/assets/icons/cv_o.png);
-  --cvc: url(/Portafolio-Personal/assets/icons/cv_c.png);
-  --github-logo: url(/Portafolio-Personal/assets/icons/signo-de-github_o.png);
-  --github-logo-c: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
-  --linkedin-logo: url(/Portafolio-Personal/assets/icons/logotipo-de-linkedin_o.png);
-  --tiktok-logo: url(/Portafolio-Personal/assets/icons/tik-tok_o.png);
-  --mail-logo: url(/Portafolio-Personal/assets/icons/email_o.png);
-  --html-logo: url(/Portafolio-Personal/assets/icons/html_o.png);
-  --js-logo: url(/Portafolio-Personal/assets/icons/js_o.png);
-  --react-logo: url(/Portafolio-Personal/assets/icons/react_o.png);
-  --css-logo: url(/Portafolio-Personal/assets/icons/css_o.png);
-  --trello-logo: url(/Portafolio-Personal/assets/icons/trello_o.png);
-  --figma-logo: url(/Portafolio-Personal/assets/icons/figma_o.png);
-  --patin-logo: url(/Portafolio-Personal/assets/icons/patin_o.png);
-  --ilustracion-logo: url(/Portafolio-Personal/assets/icons/tableta-de-dibujo_o.png);
-  --tattoo-logo: url(/Portafolio-Personal/assets/icons/maquina-de-tatuaje_o.png);
-  --game-logo: url(/Portafolio-Personal/assets/icons/mando_o.png);
-  --play-logo: url(/Portafolio-Personal/assets/icons/play-alternativo_o.png);
-  --play-logo-c: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
-  --nav-logo: url(/Portafolio-Personal/assets/icons/menu__o.png);
+  --cvo: url(/assets/icons/cv_o.png);
+  --cvc: url(/assets/icons/cv_c.png);
+  --github-logo: url(/assets/icons/signo-de-github_o.png);
+  --github-logo-c: url(/assets/icons/signo-de-github_c.png);
+  --linkedin-logo: url(/assets/icons/logotipo-de-linkedin_o.png);
+  --tiktok-logo: url(/assets/icons/tik-tok_o.png);
+  --mail-logo: url(/assets/icons/email_o.png);
+  --html-logo: url(/assets/icons/html_o.png);
+  --js-logo: url(/assets/icons/js_o.png);
+  --react-logo: url(/assets/icons/react_o.png);
+  --css-logo: url(/assets/icons/css_o.png);
+  --trello-logo: url(/assets/icons/trello_o.png);
+  --figma-logo: url(/assets/icons/figma_o.png);
+  --patin-logo: url(/assets/icons/patin_o.png);
+  --ilustracion-logo: url(/assets/icons/tableta-de-dibujo_o.png);
+  --tattoo-logo: url(/assets/icons/maquina-de-tatuaje_o.png);
+  --game-logo: url(/assets/icons/mando_o.png);
+  --play-logo: url(/assets/icons/play-alternativo_o.png);
+  --play-logo-c: url(/assets/icons/play-alternativo_c.png);
+  --nav-logo: url(/assets/icons/menu__o.png);
 }
 
 .darkmode {
@@ -39,33 +39,33 @@
   --color-medio: #ef8f7b;
   --color-secundario: #ffc0b3;
   --color-contrasteAlto: #ffece8;
-  --background: url(/Portafolio-Personal/assets/pexels-dastan-khdir-13627288.jpg);
-  --background-intro: url(/Portafolio-Personal/assets/pexels-craig-adderley-1574848.jpg);
+  --background: url(/assets/pexels-dastan-khdir-13627288.jpg);
+  --background-intro: url(/assets/pexels-craig-adderley-1574848.jpg);
 
-  --profile: url(/Portafolio-Personal/assets/caramiasinpelo_c.png);
-  --sobre-img: url(/Portafolio-Personal/assets/bunny__c.png);
-  --contacto-img: url(/Portafolio-Personal/assets/conejis_c.png);
+  --profile: url(/assets/caramiasinpelo_c.png);
+  --sobre-img: url(/assets/bunny__c.png);
+  --contacto-img: url(/assets/conejis_c.png);
 
-  --cvo: url(/Portafolio-Personal/assets/icons/cv_c.png);
-  --cvc: url(/Portafolio-Personal/assets/icons/cv_o.png);
-  --github-logo: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
-  --github-logo-c: url(/Portafolio-Personal/assets/icons/signo-de-github_o.png);
-  --linkedin-logo: url(/Portafolio-Personal/assets/icons/logotipo-de-linkedin_c.png);
-  --tiktok-logo: url(/Portafolio-Personal/assets/icons/tik-tok_c.png);
-  --mail-logo: url(/Portafolio-Personal/assets/icons/email_c.png);
-  --html-logo: url(/Portafolio-Personal/assets/icons/html_c.png);
-  --js-logo: url(/Portafolio-Personal/assets/icons/js_c.png);
-  --react-logo: url(/Portafolio-Personal/assets/icons/react_c.png);
-  --css-logo: url(/Portafolio-Personal/assets/icons/css_c.png);
-  --trello-logo: url(/Portafolio-Personal/assets/icons/trello_c.png);
-  --figma-logo: url(/Portafolio-Personal/assets/icons/figma_c.png);
-  --patin-logo: url(/Portafolio-Personal/assets/icons/patin_c.png);
-  --ilustracion-logo: url(/Portafolio-Personal/assets/icons/tableta-de-dibujo_c.png);
-  --tattoo-logo: url(/Portafolio-Personal/assets/icons/maquina-de-tatuaje_c.png);
-  --game-logo: url(/Portafolio-Personal/assets/icons/mando_c.png);
-  --play-logo: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
-  --play-logo-c: url(/Portafolio-Personal/assets/icons/play-alternativo_o.png);
-  --nav-logo: url(/Portafolio-Personal/assets/icons/menu__c.png);
+  --cvo: url(/assets/icons/cv_c.png);
+  --cvc: url(/assets/icons/cv_o.png);
+  --github-logo: url(/assets/icons/signo-de-github_c.png);
+  --github-logo-c: url(/assets/icons/signo-de-github_o.png);
+  --linkedin-logo: url(/assets/icons/logotipo-de-linkedin_c.png);
+  --tiktok-logo: url(/assets/icons/tik-tok_c.png);
+  --mail-logo: url(/assets/icons/email_c.png);
+  --html-logo: url(/assets/icons/html_c.png);
+  --js-logo: url(/assets/icons/js_c.png);
+  --react-logo: url(/assets/icons/react_c.png);
+  --css-logo: url(/assets/icons/css_c.png);
+  --trello-logo: url(/assets/icons/trello_c.png);
+  --figma-logo: url(/assets/icons/figma_c.png);
+  --patin-logo: url(/assets/icons/patin_c.png);
+  --ilustracion-logo: url(/assets/icons/tableta-de-dibujo_c.png);
+  --tattoo-logo: url(/assets/icons/maquina-de-tatuaje_c.png);
+  --game-logo: url(/assets/icons/mando_c.png);
+  --play-logo: url(/assets/icons/play-alternativo_c.png);
+  --play-logo-c: url(/assets/icons/play-alternativo_o.png);
+  --nav-logo: url(/assets/icons/menu__c.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -75,33 +75,33 @@
     --color-medio: #ef8f7b;
     --color-secundario: #ffc0b3;
     --color-contrasteAlto: #ffece8;
-    --background: url(/Portafolio-Personal/assets/pexels-dastan-khdir-13627288.jpg);
-    --background-intro: url(/Portafolio-Personal/assets/pexels-craig-adderley-1574848.jpg);
+    --background: url(/assets/pexels-dastan-khdir-13627288.jpg);
+    --background-intro: url(/assets/pexels-craig-adderley-1574848.jpg);
 
-    --profile: url(/Portafolio-Personal/assets/caramiasinpelo_c.png);
-    --sobre-img: url(/Portafolio-Personal/assets/bunny__c.png);
-    --contacto-img: url(/Portafolio-Personal/assets/conejis_c.png);
+    --profile: url(/assets/caramiasinpelo_c.png);
+    --sobre-img: url(/assets/bunny__c.png);
+    --contacto-img: url(/assets/conejis_c.png);
 
-    --cvo: url(/Portafolio-Personal/assets/icons/cv_c.png);
-    --cvc: url(/Portafolio-Personal/assets/icons/cv_o.png);
-    --github-logo: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
-    --github-logo-c: url(/Portafolio-Personal/assets/icons/signo-de-github_o.png);
-    --linkedin-logo: url(/Portafolio-Personal/assets/icons/logotipo-de-linkedin_c.png);
-    --tiktok-logo: url(/Portafolio-Personal/assets/icons/tik-tok_c.png);
-    --mail-logo: url(/Portafolio-Personal/assets/icons/email_c.png);
-    --html-logo: url(/Portafolio-Personal/assets/icons/html_c.png);
-    --js-logo: url(/Portafolio-Personal/assets/icons/js_c.png);
-    --react-logo: url(/Portafolio-Personal/assets/icons/react_c.png);
-    --css-logo: url(/Portafolio-Personal/assets/icons/css_c.png);
-    --trello-logo: url(/Portafolio-Personal/assets/icons/trello_c.png);
-    --figma-logo: url(/Portafolio-Personal/assets/icons/figma_c.png);
-    --patin-logo: url(/Portafolio-Personal/assets/icons/patin_c.png);
-    --ilustracion-logo: url(/Portafolio-Personal/assets/icons/tableta-de-dibujo_c.png);
-    --tattoo-logo: url(/Portafolio-Personal/assets/icons/maquina-de-tatuaje_c.png);
-    --game-logo: url(/Portafolio-Personal/assets/icons/mando_c.png);
-    --play-logo: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
-    --play-logo-c: url(/Portafolio-Personal/assets/icons/play-alternativo_o.png);
-    --nav-logo: url(/Portafolio-Personal/assets/icons/menu__c.png);
+    --cvo: url(/assets/icons/cv_c.png);
+    --cvc: url(/assets/icons/cv_o.png);
+    --github-logo: url(/assets/icons/signo-de-github_c.png);
+    --github-logo-c: url(/assets/icons/signo-de-github_o.png);
+    --linkedin-logo: url(/assets/icons/logotipo-de-linkedin_c.png);
+    --tiktok-logo: url(/assets/icons/tik-tok_c.png);
+    --mail-logo: url(/assets/icons/email_c.png);
+    --html-logo: url(/assets/icons/html_c.png);
+    --js-logo: url(/assets/icons/js_c.png);
+    --react-logo: url(/assets/icons/react_c.png);
+    --css-logo: url(/assets/icons/css_c.png);
+    --trello-logo: url(/assets/icons/trello_c.png);
+    --figma-logo: url(/assets/icons/figma_c.png);
+    --patin-logo: url(/assets/icons/patin_c.png);
+    --ilustracion-logo: url(/assets/icons/tableta-de-dibujo_c.png);
+    --tattoo-logo: url(/assets/icons/maquina-de-tatuaje_c.png);
+    --game-logo: url(/assets/icons/mando_c.png);
+    --play-logo: url(/assets/icons/play-alternativo_c.png);
+    --play-logo-c: url(/assets/icons/play-alternativo_o.png);
+    --nav-logo: url(/assets/icons/menu__c.png);
   }
 }
 
