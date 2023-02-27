@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-image: url(/assets/montana-rosa-2.png);
+  background-image: var(--background-intro);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0 0 0;
@@ -38,13 +38,13 @@
   .intro {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1250px;
     height: 80vh;
     margin: 0 auto;
     padding: 0 1rem;
     border-radius: 100px;
-    box-shadow: 2px 2px 5px #dd7272;
+    box-shadow: 2px 2px 5px var(--color-primary-0);
   }
 
   .intro__redes {
@@ -57,7 +57,7 @@
     margin: 1.5rem 0;
     font-size: 1.8rem;
     text-align: justify;
-    color: #651e0f;
+    color: var(--color-secundario);
   }
 
   .profile__card {
