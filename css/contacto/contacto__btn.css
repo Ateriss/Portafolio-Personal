@@ -12,7 +12,7 @@
   display: inline-block;
   padding: 0.3em;
   margin: 1em;
-  border: solid 2px #651e0f;
+  border: solid 2px var(--color-secundario);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -28,12 +28,12 @@
   width: 43.3%;
   padding: 0.6em 2em;
   font-weight: bold;
-  color: #651e0f;
+  color: var(--color-secundario);
 }
 
 .contacto__btn--box:hover span {
-  background-color: #651e0f;
-  color: #ffc0b3;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
 }
 
 .contacto__btn--box::before,

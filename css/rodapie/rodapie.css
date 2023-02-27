@@ -1,7 +1,7 @@
 .rodapie {
   display: flex;
   flex-direction: column;
-  background-image: url(/assets/montana-rosa-2.png);
+  background-image: var(--background-intro);
   background-position: bottom;
   width: 100vw;
 }

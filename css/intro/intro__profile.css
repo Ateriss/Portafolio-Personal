@@ -2,15 +2,17 @@
   display: flex;
   justify-content: center;
   padding: 0.25rem;
-}
-
-.intro__profile--img {
   width: 60vw;
-  justify-content: center;
+  background-image: var(--profile);
+  background-position: center;
+  background-size: 60vw;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
-  .intro__profile--img {
+  .intro__profile{
     width: 350px;
+    background-size: 350px;
+    height: 350px;
   }
 }

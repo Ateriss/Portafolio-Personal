@@ -4,7 +4,7 @@
     padding-top: 1rem;
     font-size: 0.75rem;
     text-align: center;
-    color: #651E0F;
+    color: var(--color-secundario);
 }
 
 .rodapie__nombre--descripcion{

@@ -5,7 +5,7 @@
   padding-top: 3rem;
   height: 100vh;
   align-items: center;
-  color: #651e0f;
+  color:var(--color-secundario);
 }
 
 .sobre__caja {
@@ -25,6 +25,10 @@
 
 .sobre__img {
   width: 50%;
+  background-image: var(--sobre-img);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   align-self: center;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
@@ -49,6 +53,7 @@
 
   .sobre__img {
     width: 210px;
+    height: 350px;
   }
 }
 
@@ -74,6 +79,7 @@
   }
 
   .sobre__img {
-    width: 320px;
+    width: 360px;
+    height: 500px;
   }
 }

@@ -2,12 +2,12 @@
   position: absolute;
   width: 300px;
   padding: 1rem;
-  background-image: url(/assets/cielo_rosa.jpg);
+  background-image: var(--background);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px #dd7272;
+  box-shadow: 2px 2px 5px var(--color-primary-0);
   display: none;
   transition: 0.3s;
   z-index: 1;
@@ -16,7 +16,7 @@
 .cabecera__item {
   font-size: 1rem;
   font-weight: bold;
-  color: #651e0f;
+  color: var(--color-secundario);
   padding: 1rem;
   text-transform: uppercase;
   width: 250px;
@@ -34,7 +34,7 @@
 .cabecera__item:active {
   background-color: rgba(101, 30, 15, 0.8);
   backdrop-filter: blur(10px);
-  color: #ffc0b3;
+  color: var(--color-primario);
 }
 
 @media screen and (min-width: 768px) {

@@ -10,6 +10,14 @@
 
 .rodapie__rrss--logo {
   width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mail{
+  background-image: var(--mail-logo);
 }
 
 .rodapie__rrss--logo:hover {
@@ -32,6 +40,7 @@
 
   .rodapie__rrss--logo {
     width: 30px;
+    height: 30px;
     margin: 1rem;
   }
 }

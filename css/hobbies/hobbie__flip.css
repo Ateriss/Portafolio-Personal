@@ -18,7 +18,7 @@
     height: 100%;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     border-radius: 15px;
-    border: 2px solid #651e0f;
+    border: 2px solid var(--color-secundario);
     transition: transform 1s;
     transform-style: preserve-3d;
   }
@@ -36,7 +36,7 @@
     background: rgba(0, 0, 0, 0);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    box-shadow: 2px 2px 5px #dd7272;
+    box-shadow: 2px 2px 5px var(--color-primary-0);
     backface-visibility: hidden;
   }
   
@@ -48,23 +48,43 @@
   }
 
   #patin{
-    background-image: url(/assets/pexels-ἐμμανυελ--13373949.jpg);
+    background-image: url(/Portafolio-Personal/assets/pexels-ἐμμανυελ--13373949.jpg);
   }
 
   #ilustracion{
-    background-image: url(/assets/pexels-george-milton-7015034.jpg);
+    background-image: url(/Portafolio-Personal/assets/pexels-george-milton-7015034.jpg);
   }
 
   #tattoo{
-    background-image: url(/assets/pexels-cottonbro-studio-4125580.jpg);
+    background-image: url(/Portafolio-Personal/assets/pexels-cottonbro-studio-4125580.jpg);
   }
 
   #game{
-    background-image: url(/assets/pexels-lucie-liz-3248143.jpg);
+    background-image: url(/Portafolio-Personal/assets/pexels-lucie-liz-3248143.jpg);
   }
 
   .hobbie__logo--img{
     width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .patin{
+    background-image: var(--patin-logo);
+  }
+
+  .ilustracion{
+    background-image: var(--ilustracion-logo);
+  }
+
+  .tattoo{
+    background-image: var(--tattoo-logo);
+  }
+
+  .game{
+    background-image: var(--game-logo);
   }
 
   .hobbie__box--front ul{
@@ -77,14 +97,15 @@
 .hobbie__nombre{
     font-size: 1rem;
     font-weight: bold;
-    color: #651e0f;
+    color: var(--color-secundario);
 }
 
 
 @media screen and (min-width:768px){
 
     .hobbie__logo--img{
-        width: 80px;
+        width: 90px;
+        height: 90px;
       }
 
       .hobbie__box {

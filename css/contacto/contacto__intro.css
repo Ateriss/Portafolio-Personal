@@ -1,17 +1,17 @@
 .contacto__intro {
   margin-bottom: 0.5rem;
   border: 2px solid;
-  border-color: #651e0f;
+  border-color: var(--color-secundario);
   background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  box-shadow: 2px 2px 5px #dd7272;
+  box-shadow: 2px 2px 5px var(--color-medio);
   width: 85vw;
 }
 
 .contacto__intro--nombre {
   font-size: 1rem;
-  color: #ef8f7b;
+  color: var(--color-medio);
   padding: 0.5rem;
   padding-bottom: 0;
 }
@@ -20,7 +20,7 @@
   width: 95%;
   height: 20px;
   font-size: 1.25rem;
-  color: #651e0f;
+  color: var(--color-secundario);
   outline: none;
   padding: 0.5rem;
 }

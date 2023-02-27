@@ -36,6 +36,11 @@
   .contacto__img {
     display: block;
     width: 400px;
+    height: 380px;
+    background-image: var(--contacto-img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .contacto__box {

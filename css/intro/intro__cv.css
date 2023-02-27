@@ -1,7 +1,7 @@
 .intro__cv{
     font-size: 1rem;
     font-weight: bold;
-    color: #651e0f;
+    color: var(--color-secundario);
     display: flex;
 
 }
@@ -21,7 +21,8 @@
   display: inline-block;
   padding: 0.3em;
   margin: 1em;
-  border: solid 2px #651e0f;
+  border: solid 2px;
+  border-color: var(--color-secundario);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -39,13 +40,13 @@
   width: 63%;
   padding: 0.6em 2em;
   font-weight: bold;
-  color: #651e0f;
+  color: var(--color-secundario);
 }
 
 .intro__cv:hover span
 {
-  background-color: #651e0f;
-  color: #FFC0B3;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
 }
 
 .intro__cv::before,
@@ -107,10 +108,19 @@
 
 .cvc, .cvo{
   width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .cvc{
+  background-image: var(--cvc);
     display: none;
+}
+
+.cvo{
+  background-image: var(--cvo);
 }
 
 
@@ -128,5 +138,6 @@
 
 .cvo, .cvc{
     width: 40px;
+    height: 40px;
 }
 }

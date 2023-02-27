@@ -27,5 +27,7 @@
 
   .exp__caja2{
     flex-direction: row;
+    height: 70vh;
+    align-items: center;
   }
 }

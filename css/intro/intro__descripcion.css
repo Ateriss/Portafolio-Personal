@@ -3,7 +3,7 @@
   padding-bottom: 0.5rem;
   font-weight: 500;
   text-align: center;
-  color: #651e0f;
+  color: var(--color-secundario);
 }
 
 @media screen and (min-width: 768px) {

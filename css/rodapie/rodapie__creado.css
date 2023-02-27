@@ -7,7 +7,7 @@
 
 .rodapie__creado p {
   text-align: center;
-  color: #651e0f;
+  color: var(--color-secundario);
   font-weight: bold;
   margin: 0.25rem;
 }

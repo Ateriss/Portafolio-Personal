@@ -1,7 +1,7 @@
 .exp__box {
   width: 325px;
   border-radius: 15px;
-  border: 2px #651e0f;
+  border: 2px var(--color-secundario);
   margin-top: 1rem;
 }
 
@@ -18,7 +18,7 @@
   left: 0;
   border-radius: 15px 15px 0 0;
   transition: 0.4s;
-  box-shadow: 2px 0px 5px #dd7272;
+  box-shadow: 2px 0px 5px #651E0F;
 }
 
 .title {
@@ -30,14 +30,13 @@
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  color: #651e0f;
+  color: #651E0F;
   transition: top 0.5s;
-  text-shadow: 5px 5px 10px #ff9c9c;
 }
 
 .exp__box:hover .title {
   top: 40px;
-  color: #ffc0b3;
+  color:  #FFC0B3;
 }
 
 .exp__box:hover .img {
@@ -55,7 +54,7 @@
 
 .btn1 a {
   padding: 15px;
-  color: #651e0f;
+  color: #651E0F;
 
   margin: 10px;
 }
@@ -64,28 +63,28 @@
 #demo {
   width: 30px;
   height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
 #repo {
-  background-image: url(/assets/icons/signo-de-github_o.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
+  background-image: url(/Portafolio-Personal/assets/icons/signo-de-github_o.png);
 }
 
 .exp__box:hover #repo {
   text-decoration: underline;
-  background-image: url(/assets/icons/signo-de-github_c.png);
+  background-image: url(/Portafolio-Personal/assets/icons/signo-de-github_c.png);
 }
 
 #demo {
-  background-image: url(/assets/icons/play-alternativo_o.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
+  background-image: url(/Portafolio-Personal/assets/icons/play-alternativo_o.png);
 }
 
 .exp__box:hover #demo {
   text-decoration: underline;
-  background-image: url(/assets/icons/play-alternativo_c.png);
+  background-image: url(/Portafolio-Personal/assets/icons/play-alternativo_c.png);
 }
 
 .exp__box:hover .btn1 {
@@ -95,19 +94,19 @@
 .exp__descripcion {
   height: 100x;
   font-size: 1rem;
-  color: #651e0f;
+  color: var(--color-secundario);
   padding: 1rem;
   text-align: justify;
   background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(10px);
   border-radius: 0 0 15px 19px;
-  box-shadow: 2px 2px 5px #dd7272;
+  box-shadow: 2px 2px 5px var(--color-primary-0);
   transition: 0.5s;
 }
 
 .exp__box:hover .exp__descripcion {
-  background: #651e0f;
-  color: #ff9c9c;
+  background: var(--color-secundario);
+  color: var(--color-primario);
 }
 
 @media screen and (min-width: 768px) {
@@ -158,6 +157,10 @@
 
   .imagen {
     width: 100%;
+  }
+
+  .title{
+    top: 200px;
   }
 
   .exp__caja2 {

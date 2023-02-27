@@ -3,11 +3,40 @@
 }
 
 .skill__logo--img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 40px;
+  height: 40px;
+}
+
+.html{
+  background-image: var(--html-logo);
+}
+
+.js{
+  background-image: var(--js-logo);
+}
+
+.react{
+  background-image: var(--react-logo);
+}
+
+.css{
+  background-image: var(--css-logo);
+}
+
+.trello{
+  background-image: var(--trello-logo);
+}
+
+.figma{
+  background-image: var(--figma-logo);
 }
 
 @media screen and (min-width: 768px) {
   .skill__logo--img {
-    width: 80px;
+    width: 90px;
+    height: 90px;
   }
 }

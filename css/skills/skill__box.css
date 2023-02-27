@@ -10,7 +10,7 @@
   background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  box-shadow: 2px 2px 5px #dd7272;
+  box-shadow: 2px 2px 5px var(--color-primary-0);
 }
 
 @media screen and (min-width: 768px) {

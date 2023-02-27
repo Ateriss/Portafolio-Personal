@@ -7,7 +7,7 @@
   background: rgba(0, 0, 0, 0);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  box-shadow: 2px 2px 5px #dd7272;
+  box-shadow: 2px 2px 5px var(--color-medio);
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: flex-start;
   width: 250px;
-  color: #651e0f;
+  color: var(--color-secundario);
 }
 
 .formacion__box--tiempo {
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: flex-start;
   width: 250px;
-  color: #651e0f;
+  color: var(--color-secundario);
 }
 
 @media screen and (min-width: 768px) {

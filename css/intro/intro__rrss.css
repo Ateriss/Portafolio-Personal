@@ -11,7 +11,7 @@
 .intro__rrss--item {
   font-size: 0.75rem;
   font-weight: bold;
-  text-shadow: 2px 2px 5px #ff9c9c;
+  text-shadow: 2px 2px 5px var(--color-primario);
   display: flex;
   align-items: flex-end;
   margin: 0.5rem;
@@ -20,7 +20,24 @@
 .intro__rrss--img {
   padding-left: 2px;
   width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.github{
+  background-image: var(--github-logo);
+}
+
+.linkedin{
+  background-image: var(--linkedin-logo);
+}
+.tiktok{
+  background-image: var(--tiktok-logo);
+}
+
+
 
 .intro__rrss--item:hover {
   animation: temblor 0.8s ease-in;
@@ -29,6 +46,7 @@
 @media screen and (min-width: 768px) {
   .intro__rrss--img {
     width: 60px;
+    height: 60px;
   }
 }
 
