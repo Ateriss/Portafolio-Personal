@@ -65,19 +65,19 @@
 }
 
 #repo {
-  background-image: url(assets/icons/signo-de-github_o.png);
+  background-image: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/signo-de-github_o.png);
 }
 
 .exp__box:hover #repo {
-  background-image: url(assets/icons/signo-de-github_c.png);
+  background-image: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/signo-de-github_c.png);
 }
 
 #demo {
-  background-image: url(assets/icons/play-alternativo_o.png);
+  background-image: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/play-alternativo_o.png);
 }
 
 .exp__box:hover #demo {
-  background-image: url(assets/icons/play-alternativo_c.png);
+  background-image: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/play-alternativo_c.png);
 }
 
 .exp__box:hover .btn1 {
