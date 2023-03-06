@@ -9,7 +9,7 @@
 
 .cabecera__lista li:hover .cabecera__menu {
   transition: 0.3s;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   align-items: center;
 }
@@ -36,4 +36,6 @@
     align-items: center;
     justify-content: space-around;
   }
+
+
 }

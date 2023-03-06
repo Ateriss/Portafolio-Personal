@@ -1,6 +1,6 @@
 const form = document.querySelector(".contacto__box");
-const nombre = document.querySelector("#nombre");
-const correo = document.querySelector("#correo");
+const nombre = document.querySelector("#name");
+const correo = document.querySelector("#email");
 const sendBtn = document.querySelector(".sendES");
 const inputs = document.querySelectorAll('.contacto__intro--texto');
 
@@ -8,7 +8,7 @@ form.addEventListener("submit", function(event) {
   if (!nombre.checkValidity()) {
     event.preventDefault();
     nombre.nextElementSibling.innerText =
-      "Necesito tu nombre para comunicarme contigo";
+      "I need your name to contact you";
     nombre.nextElementSibling.classList.add("error--activo");
     nombre.parentElement.classList.add("invalid");
   } else {
@@ -20,10 +20,10 @@ form.addEventListener("submit", function(event) {
     event.preventDefault();
     if (correo.validity.valueMissing) {
       correo.nextElementSibling.innerText =
-        "Necesito tu E-mail para comunicarme contigo";
+        "I need your email to contact you";
     } else {
       correo.nextElementSibling.innerText =
-        "Ingresa un correo válido, como example@mail.com";
+        "Enter a valid email, for example example@mail.com";
     }
     correo.nextElementSibling.classList.add("error--activo");
     correo.parentElement.classList.add("invalid");
@@ -36,7 +36,7 @@ form.addEventListener("submit", function(event) {
 sendBtn.addEventListener("click", function(event) {
   if (!nombre.checkValidity()) {
     nombre.nextElementSibling.innerText =
-      "Necesito tu nombre para comunicarme contigo";
+      "I need your name to contact youu";
     nombre.nextElementSibling.classList.add("error--activo");
     nombre.parentElement.classList.add("invalid");
   } else {
@@ -47,10 +47,10 @@ sendBtn.addEventListener("click", function(event) {
   if (!correo.checkValidity()) {
     if (correo.validity.valueMissing) {
       correo.nextElementSibling.innerText =
-        "Necesito tu E-mail para comunicarme contigo";
+        "I need your email to contact you";
     } else {
       correo.nextElementSibling.innerText =
-      "Intenta con algo parecido a example@mail.com";
+      "Enter a valid email, for example example@mail.com";
     }
     correo.nextElementSibling.classList.add("error--activo");
     correo.parentElement.classList.add("invalid");
@@ -68,8 +68,8 @@ sendBtn.addEventListener('click', () => {
     msj.value = '';
     form.reset();
     setTimeout(() => swal({
-      title: "¡Gracias!",
-      text: "Me contactaré contigo lo antes posible",
+      title: "Thanks!",
+      text: "I will contact you as soon as possible",
       icon: "success",
       button: "Aww <3",
     }), 500);

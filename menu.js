@@ -1,10 +1,13 @@
-//.cabecera__lista li::after .cabecera__menu{
+const navImg = document.querySelector('.cabecera__nav--img');
+const menuItems = document.querySelectorAll('.cabecera__menu li a');
+const menuList = document.querySelector('.cabecera__menu');
 
-const cabeceraLista = document.querySelector(".cabecera__lista");
-const menu = document.querySelector(".cabecera__menu");
-const cabeceraItem = document.querySelector(".cabecera__item");
-
-cabeceraItem.addEventListener("click", function (){
-    menu.style.display("none");
+navImg.addEventListener('click', () => {
+  menuList.classList.toggle('active');
 });
 
+menuItems.forEach(item => {
+  item.addEventListener('click', () => {
+    menuList.classList.remove('active');
+  });
+});

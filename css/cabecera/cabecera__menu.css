@@ -8,11 +8,16 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 2px 2px 5px var(--color-primary-0);
-  display: none;
+  display: block;
   transition: all 0.4s;
   z-index: 1;
+  transform: translatey(-120%);
+  transition: transform 0.3s ease-in-out;
 }
 
+.cabecera__menu.active {
+  transform: translatex(0);
+}
 
 
 .cabecera__item {
@@ -41,6 +46,7 @@
 
 
 
+
 @media screen and (min-width: 768px) {
   .cabecera__menu {
     width: 650px;
@@ -63,6 +69,7 @@
     width: 1000px;
     margin: 0;
     padding: 0;
+    transform: translatey(0);
   }
 
   .cabecera__item {

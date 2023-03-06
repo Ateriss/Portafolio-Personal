@@ -1,5 +1,5 @@
 .contacto__intro {
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 0 auto;
   border: 2px solid;
   border-color: var(--color-secundario);
   background: rgba(0, 0, 0, 0);
@@ -7,18 +7,29 @@
   border-radius: 10px;
   box-shadow: 2px 2px 5px var(--color-medio);
   width: 85vw;
-  padding: 0.25rem;
+  padding: 0.25rem 0.25rem 0 .25rem;
+  height: 50px;
 }
 
 .invalid{
-  border-color: red;
-  color: red;
+  border-color: #ff4d4d;
+  color: #ff4d4d;
 }
 
-.contacto__intro--error{
-  padding-left: 0.5rem;
-  color: red;
-  display: none;
+
+.contacto__intro--error {
+  color: #ff4d4d;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  transition: all 0.2s ease;
+  visibility: hidden;
+}
+
+.contacto__intro--error[valueMissing],
+.contacto__intro--error[typeMismatch] {
+  display: block;
 }
 
 .contacto__intro--nombre {
@@ -29,17 +40,26 @@
 }
 
 .contacto__intro--texto {
+ height: 40%;
   width: 95%;
-  height: 20px;
   font-size: 1.25rem;
   color: var(--color-secundario);
   outline: none;
   padding: 0.5rem;
+  
 }
+
+
+
+.contacto__intro--error.error--activo {
+  visibility: visible;
+}
+
 
 @media screen and (min-width: 768px) {
   .contacto__intro {
     margin: 1.5rem auto;
+    height: 100px;
   }
 
   .contacto__intro--nombre {
@@ -49,7 +69,7 @@
 
   .contacto__intro--texto {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom:0;
   }
 }
 

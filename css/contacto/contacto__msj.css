@@ -1,11 +1,35 @@
 .msj {
-  height: 100px;
+  width: 95%;
+  height: 80%;
   text-align: justify;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
   background: rgba(0, 0, 0, 0);
 }
+
+.mensaje{
+    margin: 1.5rem auto;
+    border: 2px solid;
+    border-color: var(--color-secundario);
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--color-medio);
+    width: 85vw;
+    padding: 0.25rem;
+    height: 100px;
+}
+
+@media screen and (min-width: 740px) {
+  .mensaje {
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+    height: 170px;
+  }
+
+}
+
 
 @media screen and (min-width: 1440px) {
   .msj {
