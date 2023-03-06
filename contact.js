@@ -36,7 +36,7 @@ form.addEventListener("submit", function(event) {
 sendBtn.addEventListener("click", function(event) {
   if (!nombre.checkValidity()) {
     nombre.nextElementSibling.innerText =
-      "I need your name to contact youu";
+      "I need your name to contact you";
     nombre.nextElementSibling.classList.add("error--activo");
     nombre.parentElement.classList.add("invalid");
   } else {
