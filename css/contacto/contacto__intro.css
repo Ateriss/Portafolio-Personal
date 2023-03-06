@@ -90,6 +90,7 @@
 
   .contacto__intro {
     width: 600px;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
+    height: 80px;
   }
 }
