@@ -45,7 +45,7 @@
   font-size: 1.25rem;
   color: var(--color-secundario);
   outline: none;
-  padding: 0 0 0 0.5rem;
+  padding:0.5rem;
   
 }
 
@@ -70,6 +70,7 @@
   .contacto__intro--texto {
     font-size: 2rem;
     margin-bottom:0;
+    padding: 0 0 0 0.5rem;
   }
 }
 
