@@ -35,7 +35,7 @@
 .contacto__intro--nombre {
   font-size: 1rem;
   color: var(--color-medio);
-  padding: 0.5rem;
+  padding:0.5rem;
   padding-bottom: 0;
 }
 
@@ -45,7 +45,7 @@
   font-size: 1.25rem;
   color: var(--color-secundario);
   outline: none;
-  padding: 0.5rem;
+  padding: 0 0 0 0.5rem;
   
 }
 
@@ -81,7 +81,7 @@
 
   .contacto__intro--texto {
     margin: 0;
-    padding: 0.5rem;
+    padding: 0 0 0 .5rem;
   }
 
   .contacto__intro--texto {
