@@ -17,16 +17,6 @@
 }
 
 
-.contacto__intro--error {
-  color: #ff4d4d;
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  margin-top: 5px;
-  transition: all 0.2s ease;
-  visibility: hidden;
-}
-
 .contacto__intro--error[valueMissing],
 .contacto__intro--error[typeMismatch] {
   display: block;
@@ -40,7 +30,7 @@
 }
 
 .contacto__intro--texto {
- height: 40%;
+  height: 40%;
   width: 95%;
   font-size: 1.25rem;
   color: var(--color-secundario);
@@ -49,7 +39,15 @@
   
 }
 
-
+.contacto__intro--error {
+  color: #ff4d4d;
+  display: block;
+  font-size: 0.25rem;
+  font-weight: 500;
+  margin-top: 5px;
+  transition: all 0.2s ease;
+  visibility: hidden;
+}
 
 .contacto__intro--error.error--activo {
   visibility: visible;
