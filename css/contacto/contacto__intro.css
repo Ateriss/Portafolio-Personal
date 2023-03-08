@@ -42,8 +42,9 @@
 .contacto__intro--error {
   color: #ff4d4d;
   display: block;
-  font-size: 0.25rem;
+  font-size: 0.75rem;
   font-weight: 500;
+  padding: 0 0 0 0.5rem;
   margin-top: 5px;
   transition: all 0.2s ease;
   visibility: hidden;
@@ -69,6 +70,10 @@
     font-size: 2rem;
     margin-bottom:0;
     padding: 0 0 0 0.5rem;
+  }
+
+  .contacto__intro--error{
+    font-size: 1rem;
   }
 }
 
