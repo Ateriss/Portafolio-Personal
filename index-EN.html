@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -629,15 +629,16 @@
               Do you want to contact me? complete the following form and I will
               reply as soon as possible.
             </p>
-            <form class="contacto__box scroll__animated">
+            <form class="contacto__box scroll__animated" id="formSubmit">
               <div class="contacto__intro">
-                <label for="nombre" class="contacto__intro--nombre">Name</label>
+                <label for="nombre" class="contacto__intro--nombre">Full Name</label>
                 <input
                   id="name"
                   type="text"
                   class="contacto__intro--texto"
                   placeholder="John Smith"
                   required
+                  name="name"
                 />
                 <span class="contacto__intro--error valueMissing"
                   >I need your name to contact you</span
@@ -653,6 +654,7 @@
                   class="contacto__intro--texto"
                   placeholder="example@mail.com"
                   required
+                  name="email"
                 />
                 <span class="contacto__intro--error valueMissing"
                   >I need your email to contact you</span
@@ -669,7 +671,7 @@
                   id="subject"
                   type="text"
                   class="contacto__intro--texto"
-                  data-tipo="subject"
+                  name="subject"
                 />
                 <span class="contacto__intro--error"></span>
               </div>
@@ -682,7 +684,7 @@
                   name="msj"
                   rows="5"
                   class="contacto__intro--texto msj"
-                  data-tipo="msj"
+                  name="message"
                 ></textarea>
                 <span class="contacto__intro--error"></span>
               </div>

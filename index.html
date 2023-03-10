@@ -445,15 +445,16 @@
               ¿Quieres contactarme? completa el siguiente formulario y
               responderé lo antes posible.
             </p>
-            <form class="contacto__box scroll__animated">
+            <form class="contacto__box scroll__animated" id="formSubmit">
               <div class="contacto__intro">
-                <label for="nombre" class="contacto__intro--nombre">Nombre</label>
+                <label for="nombre" class="contacto__intro--nombre">Nombre Completo</label>
                 <input
                   id="nombre"
                   type="text"
                   class="contacto__intro--texto"
-                  placeholder="John Smith"
                   required
+                  name="name"
+                  placeholder="John Smith"
                 />
                 <span class="contacto__intro--error valueMissing">Necesito tu nombre para comunicarme contigo</span>
               </div>
@@ -465,6 +466,7 @@
                   class="contacto__intro--texto"
                   placeholder="example@mail.com"
                   required
+                  name="email"
                 />
                 <span class="contacto__intro--error valueMissing">Necesito tu E-mail para comunicarme contigo</span>
                 <span class="contacto__intro--error typeMismatch">Ingresa un correo válido, por ejemplo example@mail.com</span>
@@ -475,7 +477,7 @@
                   id="subject"
                   type="text"
                   class="contacto__intro--texto"
-                  data-tipo="subject"
+                  name="subject"
                 />
                 <span class="contacto__intro--error"></span>
               </div>
@@ -483,10 +485,11 @@
                 <label for="msj" class="contacto__intro--nombre">Mensaje</label>
                 <textarea
                   id="msj"
-                  name="msj"
+                  type="text"
+                  name="message"
                   rows="5"
                   class="contacto__intro--texto msj"
-                  data-tipo="msj"
+
                 ></textarea>
                 <span class="contacto__intro--error"></span>
               </div>
@@ -548,7 +551,7 @@
         </div>
       </section>
     </footer>
- <script src="https://ateriss.github.io/Portafolio-Personal/contacto.js"></script>
+ <script src="/contacto.js"></script>
     <script src="https://ateriss.github.io/Portafolio-Personal/darkmode.js"></script>
 
     <script src="https://ateriss.github.io/Portafolio-Personal/scroll-animated.js"></script>
