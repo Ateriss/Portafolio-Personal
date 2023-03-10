@@ -49,8 +49,8 @@ sendBtn.addEventListener("click", function(event) {
       setTimeout(
         () =>
           swal({
-            title: "¡Gracias!",
-            text: "Me contactaré contigo lo antes posible",
+            title: "Thanks!",
+            text: "I will contact you as soon as possible",
             icon: "success",
             button: "Aww <3",
           }),
