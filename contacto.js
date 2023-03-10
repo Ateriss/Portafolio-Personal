@@ -1,6 +1,6 @@
 const formSubmit = document.querySelector("#formSubmit");
-const nombre = document.querySelector("#nombre");
-const correo = document.querySelector("#correo");
+const nombre = document.querySelector("#name");
+const correo = document.querySelector("#email");
 const sendBtn = document.querySelector(".sendES");
 const inputs = document.querySelectorAll('.contacto__intro--texto');
 
