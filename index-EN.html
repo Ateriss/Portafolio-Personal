@@ -639,47 +639,39 @@
         <div class="contacto__caja">
           <div>
             <p class="contacto__descripcion">
-              Do you want to contact me? complete the following form and I will
-              reply as soon as possible.
+              Do you want to contact me? complete the following form and I will reply as soon as possible.
             </p>
             <form class="contacto__box scroll__animated" id="formSubmit">
               <div class="contacto__intro">
-                <label for="nombre" class="contacto__intro--nombre">Full Name</label>
+                
                 <input
                   id="name"
                   type="text"
                   class="contacto__intro--texto"
-                  placeholder="John Smith"
                   required
                   name="name"
+                  
                 />
-                <span class="contacto__intro--error valueMissing"
-                  >I need your name to contact you</span
-                >
+                <span id="labelName" for="nombre" class="contacto__intro--nombre">Full name</span>
+                <span class="contacto__intro--error valueMissing"></span>
               </div>
               <div class="contacto__intro">
-                <label for="correo" class="contacto__intro--nombre"
-                  >E-mail</label
-                >
+                
                 <input
                   id="email"
                   type="email"
                   class="contacto__intro--texto"
-                  placeholder="example@mail.com"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                   required
                   name="email"
                 />
-                <span class="contacto__intro--error valueMissing"
-                  >I need your email to contact you</span
-                >
-                <span class="contacto__intro--error typeMismatch"
-                  >Enter a valid email, for example example@mail.com</span
-                >
+                <span id="labelEmail" for="correo" class="contacto__intro--nombre">E-mail</span>
+
+                <span class="contacto__intro--error valueMissing"></span>
+               
               </div>
               <div class="contacto__intro">
-                <label for="subject" class="contacto__intro--nombre"
-                  >Subject</label
-                >
+                
                 <input
                   id="subject"
                   type="text"
@@ -687,28 +679,30 @@
                   name="subject"
                   required
                 />
+                <span for="subject" class="contacto__intro--nombre" id="labelSubject">Subject</span>
                 <span class="contacto__intro--error"></span>
               </div>
-              <div class="mensaje">
-                <label for="msj" class="contacto__intro--nombre"
-                  >Message</label
-                >
+              <div class=" mensaje">
+                
                 <textarea
                   id="msj"
-                  name="msj"
+                  type="text"
+                  name="message"
                   rows="5"
                   class="contacto__intro--texto msj"
-                  name="message"
                   required
+
                 ></textarea>
+                <span for="msj" class="contacto__intro--nombre" id="labelMsj">Message</span>
                 <span class="contacto__intro--error"></span>
               </div>
               <div class="contacto__btn">
-                <button class="contacto__btn--box sendEN" type="button">
+                <button class="contacto__btn--box sendES" type="button">
                   <span>Send</span>
                 </button>
               </div>
             </form>
+            
           </div>
           <div class="contacto__img"></div>
         </div>
