@@ -3,36 +3,40 @@ const nombre = document.querySelector("#name");
 const correo = document.querySelector("#email");
 const sendBtn = document.querySelector(".sendES");
 const inputs = document.querySelectorAll('.contacto__intro--texto');
+const labelName = document.querySelector("#labelName");
+const labelEmail = document.querySelector("#labelEmail");
+
 
 sendBtn.addEventListener("click", function(event) {
   event.preventDefault();
   if (!nombre.checkValidity()) {
-    nombre.nextElementSibling.innerText =
+      labelName.nextElementSibling.innerText =
       "Necesito tu nombre para comunicarme contigo";
-    nombre.nextElementSibling.classList.add("error--activo");
-    nombre.parentElement.classList.add("invalid");
+      labelName.nextElementSibling.classList.add("error--activo");
+      nombre.classList.add("invalid");
   } else {
-    nombre.nextElementSibling.classList.remove("error--activo");
-    nombre.parentElement.classList.remove("invalid");
+    labelName.nextElementSibling.classList.remove("error--activo");
+    nombre.classList.remove("invalid");
   }
 
   if (!correo.checkValidity()) {
     if (correo.validity.valueMissing) {
-      correo.nextElementSibling.innerText =
+      labelEmail.nextElementSibling.innerText =
         "Necesito tu E-mail para comunicarme contigo";
     } else {
-      correo.nextElementSibling.innerText =
+      labelEmail.nextElementSibling.innerText =
       "Intenta con algo parecido a example@mail.com";
     }
-    correo.nextElementSibling.classList.add("error--activo");
-    correo.parentElement.classList.add("invalid");
+    labelEmail.nextElementSibling.classList.add("error--activo");
+    correo.classList.add("invalid");
+    correo.value = "";
   } else {
-    correo.nextElementSibling.classList.remove("error--activo");
-    correo.parentElement.classList.remove("invalid");
+    labelEmail.nextElementSibling.classList.remove("error--activo");
+    correo.classList.remove("invalid");
   }
 
-
   });
+  
 
 
   sendBtn.addEventListener("click", ()=>  {

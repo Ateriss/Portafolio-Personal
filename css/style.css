@@ -6,10 +6,12 @@
   --color-contrasteAlto: #200600;
   --background: url(https://ateriss.github.io/Portafolio-Personal/assets/cielo_rosa.jpg);
   --background-intro: url(https://ateriss.github.io/Portafolio-Personal/assets/montana-rosa-2.png);
+  --active-menu: rgba(101, 30, 15, 0.8);
 
   --profile: url(https://ateriss.github.io/Portafolio-Personal/assets/caramiasinpelo__o.png);
   --sobre-img: url(https://ateriss.github.io/Portafolio-Personal/assets/bunny__o.png);
   --contacto-img: url(https://ateriss.github.io/Portafolio-Personal/assets/conejis_o.png);
+
 
   --cvo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/cv_o.png);
   --cvc: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/cv_c.png);
@@ -39,6 +41,7 @@
   --color-medio: #ef8f7b;
   --color-secundario: #ffc0b3;
   --color-contrasteAlto: #ffece8;
+  --active-menu: rgba(255, 192, 179, 0.8);
   --background: url(https://ateriss.github.io/Portafolio-Personal/assets/pexels-dastan-khdir-13627288.jpg);
   --background-intro: url(https://ateriss.github.io/Portafolio-Personal/assets/pexels-craig-adderley-1574848.jpg);
 

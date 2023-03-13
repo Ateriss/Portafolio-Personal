@@ -26,6 +26,7 @@ sendBtn.addEventListener("click", function(event) {
     }
     correo.nextElementSibling.classList.add("error--activo");
     correo.parentElement.classList.add("invalid");
+    correo.value = "";
   } else {
     correo.nextElementSibling.classList.remove("error--activo");
     correo.parentElement.classList.remove("invalid");

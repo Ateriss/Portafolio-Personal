@@ -1,4 +1,4 @@
-.contacto__intro {
+/*.contacto__intro {
   margin: 1.5rem auto 0 auto;
   border: 2px solid;
   border-color: var(--color-secundario);
@@ -11,6 +11,78 @@
   height: 50px;
 }
 
+.contacto__intro--texto {
+  height: 40%;
+  width: 95%;
+  font-size: 1.25rem;
+  color: var(--color-secundario);
+  outline: none;
+  padding:0.5rem;
+  
+}
+
+.contacto__intro--nombre {
+  font-size: 1rem;
+  color: var(--color-medio);
+  padding:0.5rem;
+  padding-bottom: 0;
+}*/
+
+.contacto__box{
+  margin-top: 20px;
+}
+
+.contacto__intro {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  position: relative;
+
+
+}
+
+
+.contacto__intro--texto{
+  width: 100%;
+  padding: 0.25rem 0.25rem 0 .25rem;
+  margin-top: 0.75rem;
+  border: 2px solid;
+  border-color: var(--color-secundario);
+  background: rgba(0, 0, 0, 0);
+ 
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--color-medio);
+  height: 50px;
+  outline: none;
+  font-size: 1.25rem;
+  color: var(--color-secundario);
+}
+
+.contacto__intro--nombre{
+ 
+  position: absolute;
+  left: 10px;
+  padding: 5px;
+  top: 25px;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  color: var(--color-medio);
+  transition: 0.5s;
+}
+
+.contacto__intro--texto:focus ~ .contacto__intro--nombre,
+.contacto__intro--texto:valid ~ .contacto__intro--nombre {
+  font-size: 0.75rem;
+  background: var(--color-secundario);
+  color: var(--color-primario);
+  border-radius: 10px;
+  top:0
+  
+}
+
+
+
+
 .invalid{
   border-color: #ff4d4d;
   color: #ff4d4d;
@@ -22,22 +94,9 @@
   display: block;
 }
 
-.contacto__intro--nombre {
-  font-size: 1rem;
-  color: var(--color-medio);
-  padding:0.5rem;
-  padding-bottom: 0;
-}
 
-.contacto__intro--texto {
-  height: 40%;
-  width: 95%;
-  font-size: 1.25rem;
-  color: var(--color-secundario);
-  outline: none;
-  padding:0.5rem;
-  
-}
+
+
 
 .contacto__intro--error {
   color: #ff4d4d;
@@ -56,20 +115,27 @@
 
 
 @media screen and (min-width: 768px) {
-  .contacto__intro {
-    margin: 1.5rem auto;
-    height: 100px;
-  }
 
   .contacto__intro--nombre {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+     top: 35px
   }
+
+  .contacto__intro--texto:focus ~ .contacto__intro--nombre,
+.contacto__intro--texto:valid ~ .contacto__intro--nombre{
+
+  font-size: 1rem;
+}
 
   .contacto__intro--texto {
     font-size: 2rem;
     margin-bottom:0;
-    padding: 0 0 0 0.5rem;
+    height: 75px;
+  }
+
+  .contacto__intro--nombre{
+    font-size: 1.75rem;
   }
 
   .contacto__intro--error{
@@ -79,22 +145,15 @@
 
 @media screen and (min-width: 1440px) {
   .contacto__intro--nombre {
-    font-size: 1rem;
-    margin: 0;
+    font-size: 2rem;
+    top: 25px
   }
 
   .contacto__intro--texto {
-    margin: 0;
-    padding: 0 0 0 .5rem;
-  }
-
-  .contacto__intro--texto {
+    height: 60px;
     font-size: 1.5rem;
+    width: 600px;
   }
 
-  .contacto__intro {
-    width: 600px;
-    margin: 0.5rem auto;
-    height: 80px;
-  }
+
 }

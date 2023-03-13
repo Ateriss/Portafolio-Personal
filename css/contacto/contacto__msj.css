@@ -1,24 +1,24 @@
 .msj {
-  width: 95%;
+  width: 100%;
   height: 80%;
-  text-align: justify;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
+  padding: 1rem 0.25rem 0 .25rem;
+  margin-top: 0.75rem;
+  border: 2px solid;
+  border-color: var(--color-secundario);
   background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--color-medio);
+  outline: none;
+  font-size: 1.25rem;
+  color: var(--color-secundario);
 }
 
 .mensaje{
-    margin: 1.5rem auto;
-    border: 2px solid;
-    border-color: var(--color-secundario);
-    background: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px var(--color-medio);
-    width: 85vw;
-    padding: 0.25rem;
-    height: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  position: relative;
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width: 740px) {
@@ -34,7 +34,7 @@
 @media screen and (min-width: 1440px) {
   .msj {
     font-size: 1.5rem;
-    padding: 0 0 0 .5rem
+    
   }
 
   .mensaje{

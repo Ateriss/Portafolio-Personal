@@ -530,13 +530,13 @@
       <section class="formacion container" id="formacion">
         <h2 class="skill__titulo">Education</h2>
         <div class="formacion__caja">
+
           <div class="formacion__box scroll__animated">
+            <div class="formacion__box--flip">
+          <div class="formacion__box--contenido">
             <ul>
               <li class="formacion__box--logo">
-                <img
-                  src="https://ateriss.github.io/Portafolio-Personal/assets/logo-one-alura.png"
-                  alt=""
-                />
+                <img src="https://ateriss.github.io/Portafolio-Personal/assets/logo-one-alura.png" alt="" />
               </li>
               <li class="formacion__descripcion">
                 <p class="formacion__box--nombre">Front-End Development</p>
@@ -546,38 +546,51 @@
               </li>
             </ul>
           </div>
-          <div class="formacion__box center scroll__animated">
-            <ul>
-              <li class="formacion__box--logo">
-                <img
-                  src="https://ateriss.github.io/Portafolio-Personal/assets/linkmicrologo.png"
-                  alt=""
-                />
-              </li>
-              <li class="formacion__descripcion">
-                <p class="formacion__box--nombre">Data Analysis</p>
-                <p class="formacion__box--tiempo">
-                  In progress - LinkedIn Learning + Microsoft
-                </p>
-              </li>
-            </ul>
+          <div class="formacion__box--back">
+            <p class="formacion_box--descripcion">Front-End web development training where I learned HTML, CSS, JavaScript, use of libraries like React and use an API with JSON. On the other hand, I took courses in personal development, business agility and programming logic; I did several challenges to improve and demonstrate my skills during the courses.</p>
           </div>
-          <div class="formacion__box end scroll__animated">
-            <ul>
-              <li class="formacion__box--logo">
-                <img
-                  src="https://ateriss.github.io/Portafolio-Personal/assets/unefm.png"
-                  alt=""
-                />
-              </li>
-              <li class="formacion__descripcion">
-                <p class="formacion__box--nombre">
-                  Associate Degree in Electromdicine
-                </p>
-                <p class="formacion__box--tiempo">2014 / 2018 - UNEFM</p>
-              </li>
-            </ul>
-          </div>
+        </div>
+        </div>
+        <div class="formacion__box scroll__animated center">
+          <div class="formacion__box--flip">
+        <div class="formacion__box--contenido">
+          <ul>
+            <li class="formacion__box--logo">
+              <img src="https://ateriss.github.io/Portafolio-Personal/assets/linkmicrologo.png" alt="" />
+            </li>
+            <li class="formacion__descripcion">
+              <p class="formacion__box--nombre">Data Analysis</p>
+              <p class="formacion__box--tiempo">
+                In progress - Microsoft + LinkedIn 
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="formacion__box--back">
+          <p class="formacion_box--descripcion">Training in data analysis and use of tools such as PowerBI, Excel and SQL. I learned skills such as the ability to import and clean data, transform and combine data from multiple sources, dashboard creation, and data-driven decision making.</p>
+        </div>
+      </div>
+      </div>
+      <div class="formacion__box scroll__animated end">
+        <div class="formacion__box--flip">
+      <div class="formacion__box--contenido">
+        <ul>
+          <li class="formacion__box--logo">
+            <img src="https://ateriss.github.io/Portafolio-Personal/assets/unefm.png" alt="" />
+          </li>
+          <li class="formacion__descripcion">
+            <p class="formacion__box--nombre">Associate Degree in Electromedicine</p>
+            <p class="formacion__box--tiempo">
+              2014 / 2018 - UNEFM
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="formacion__box--back">
+        <p class="formacion_box--descripcion">Maintenance and repair of medical equipment, carry out maintenance plans, training medical personnel on the correct use of health equipment, hospital management and analysis of health equipment.</p>
+      </div>
+    </div>
+    </div>
         </div>
       </section>
       <section class="exp container" id="experiencia">
@@ -672,6 +685,7 @@
                   type="text"
                   class="contacto__intro--texto"
                   name="subject"
+                  required
                 />
                 <span class="contacto__intro--error"></span>
               </div>
@@ -685,6 +699,7 @@
                   rows="5"
                   class="contacto__intro--texto msj"
                   name="message"
+                  required
                 ></textarea>
                 <span class="contacto__intro--error"></span>
               </div>
