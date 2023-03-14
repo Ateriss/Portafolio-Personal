@@ -113,7 +113,7 @@
 }
 
 .formacion_box--descripcion{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 }
 
@@ -135,12 +135,12 @@
   }
 
   .formacion__box--nombre {
-    font-size: 2rem;
+    font-size: 1.75rem;
     width: 100%;
   }
 
   .formacion__box--tiempo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
   }
   
