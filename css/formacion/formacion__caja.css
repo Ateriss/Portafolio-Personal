@@ -6,6 +6,8 @@
   height: 100vh;
 }
 
+
+
 @media screen and (min-width: 1440px) {
   .formacion__caja {
     flex-direction: row;
