@@ -30,6 +30,7 @@
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
+  background-color: rgba(255, 192, 179, .3);
   color: #651E0F;
   transition: top 0.5s;
   backdrop-filter: blur(10px);
@@ -53,6 +54,7 @@
   left: 0;
   top: 160px;
   text-align: center;
+  background-color: rgba(255, 192, 179, .3);
   backdrop-filter:blur(10px) ;
   transition: opacity 0.35s ease;
 }
