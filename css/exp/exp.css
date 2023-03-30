@@ -14,20 +14,15 @@
 @media screen and (min-width: 768px) {
   .exp {
     padding-top: 100px;
-    height: 100vh;
     padding-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .exp {
-    height: 80vh;
+    height: 100vh;
     margin: 0 auto;
   }
 
-  .exp__caja2{
-    flex-direction: row;
-    height: 70vh;
-    align-items: center;
-  }
+ 
 }
