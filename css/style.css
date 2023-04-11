@@ -33,6 +33,9 @@
   --play-logo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/play-alternativo_o.png);
   --play-logo-c: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/play-alternativo_c.png);
   --nav-logo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/menu__o.png);
+  --vite-logo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/vite_o.png);
+  --office-logo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/office_o.png);
+  --tail-logo: url(https://ateriss.github.io/Portafolio-Personal/assets/icons/Tailwind_o.png);
 }
 
 .darkmode {

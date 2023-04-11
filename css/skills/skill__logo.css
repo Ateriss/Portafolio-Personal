@@ -34,6 +34,18 @@
   background-image: var(--figma-logo);
 }
 
+.vite{
+  background-image: var(--vite-logo);
+}
+
+.office{
+  background-image: var(--office-logo);
+}
+
+.tail{
+  background-image: var(--tail-logo);
+}
+
 @media screen and (min-width: 768px) {
   .skill__logo--img {
     width: 90px;
